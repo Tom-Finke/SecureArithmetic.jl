@@ -60,6 +60,9 @@ makedocs(
     # Explicitly specify documentation structure
     pages = [
         "Home" => "index.md",
+        "Tutorials" => [
+            "Remote Computation" => "tutorials/remote-computation.md",
+        ],
         "API reference" => "reference.md",
         "License" => "license.md"
     ],
